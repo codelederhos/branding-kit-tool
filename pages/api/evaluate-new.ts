@@ -79,7 +79,7 @@ export default async function handler(
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514', // Aktualisiertes Modell
+        model: 'claude-sonnet-4-6', // Aktualisiertes Modell
         max_tokens: 16000,
         messages: [
           {
